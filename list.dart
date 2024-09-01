@@ -12,4 +12,6 @@ void main(){
   print(any);
   any.replaceRange(1, 4, [2, 4]);
   print(any);
+  any[3]='dsfds';
+  print(any);
 }
