@@ -7,7 +7,7 @@ void main(){
   int obtainedMarks = math+eng+chemistry+phy+computer;
   int totalMarks = 500;
   num percentage = (obtainedMarks/totalMarks)*100;
-  if(percentage<50){
+  if(percentage<50 ){
     print('F Grade FAIL');
   }else if(percentage>=50 && percentage<60){
     print('C Grade');
