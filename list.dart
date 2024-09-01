@@ -14,4 +14,6 @@ void main(){
   print(any);
   any[3]='dsfds';
   print(any);
+  any.sort();
+  
 }
